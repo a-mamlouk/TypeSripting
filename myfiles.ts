@@ -1,12 +1,10 @@
-type ShopOfNumbers = { 
+type Shop<itemType> = { 
     name : string
-    items : Array<number>
+    items : Array<itemType>;
 }
-type ShopOfStrings = { 
-    name : string
-    items : Array<string>
-}
-type ShopOfBooleans = { 
-    name : string
-    items : Array<boolean>
-}
+
+type ShopOfNumbers = Shop<number>
+
+type ShopOfStrings = Shop<string>
+
+type ShopOfBooleans = Shop<Boolean>
