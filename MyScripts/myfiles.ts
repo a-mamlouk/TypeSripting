@@ -10,5 +10,5 @@ type ShopOfStrings = Shop<string>
 type ShopOfBooleans = Shop<Boolean>
 
 /**********************/
-function sayHello(target: any) { return `Hello ${target.firstName}`; }
-sayHello("koul"); // À cause de "any", TypeScript ne remonte aucune erreur ici !
+function sayHello(target: string) { return `Hello ${target}`; }
+console.log(sayHello("koul")); // À cause de "any", TypeScript ne remonte aucune erreur ici !
