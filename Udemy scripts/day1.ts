@@ -1,3 +1,4 @@
 //monthly expenses
-const Value = 5;
-const Name = "Anas";
+const Value: number = 5;
+const Name: string = "Anas";
+let aStringOrANumber: string | number = "";
