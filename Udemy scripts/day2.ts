@@ -6,7 +6,7 @@ let Age = 50;
 const YearsPassed = 5;
 Age -= YearsPassed;
 console.log(Age);
-const NewAge = Age - YearsPassed;
+const NewAge = Age * 2 - YearsPassed;
 console.log(NewAge);
 console.log(NewAge, FinalScore);
 console.log(4 + 4 - 2 ** 3);
