@@ -1,3 +1,4 @@
+/*
 //Area of circle
 
 const Pi = 3.14;
@@ -10,10 +11,15 @@ console.log(AreaOfCircle);
 const Radius2 = 7;
 const AreaOfCircle2 = Pi * Radius2 ** 2;
 console.log(AreaOfCircle2);
-
-function AreaOfCircle3(Radius3: number): number {
-  return Pi * Radius3 ** 2;
+*/
+function AreaOfCircle(radius: number): number {
+  const Area = Math.PI * radius ** 2;
+  return Area;
 }
-
-const Result3 = AreaOfCircle3(10);
-console.log(Result3);
+function PrintAreaOfCircle(Area: number): void {
+  console.log(`The area of the circle is ${Area}`);
+}
+const Area1 = AreaOfCircle(5);
+PrintAreaOfCircle(Area1);
+const Area2 = AreaOfCircle(7);
+PrintAreaOfCircle(Area2);
