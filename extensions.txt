@@ -1,0 +1,20 @@
+1. TypeScript - Official TypeScript language support extension.
+2. ESLint - Provides TypeScript linting and code quality checks.
+3. Prettier - Code formatter for TypeScript and other languages.
+4. Bracket Pair Colorizer - Helps visualize matching brackets with colors.
+5. GitLens - Enhances Git integration with features like blame annotations.
+6. npm Intellisense - Autocompletes npm module imports in TypeScript.
+7. Path Intellisense - Autocompletes file paths in TypeScript.
+8. Debugger for Chrome - Enables debugging TypeScript code in Chrome.
+9. Live Server - Launches a local development server for TypeScript projects.
+10. Better Comments - Improves code readability with different comment styles.
+
+Remember to install these extensions from the Visual Studio Code marketplace to enhance your TypeScript development experience.
+
+Quokka.js
+Pretty typescript errors
+Prettier
+Material Icon Theme
+errorLens
+dim night
+tldraw.com
