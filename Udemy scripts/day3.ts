@@ -41,6 +41,8 @@ if (OrderStatus === "pending") {
   console.log("Your order is pending");
 } else if (OrderStatus === "shipped") {
   console.log("Your order is arriving soon ...");
-} else {
+} else if (OrderStatus === "delivered") {
   console.log("Your order is delivered");
+} else {
+  console.log("Invalid status , how the hell did you get here ?");
 }
