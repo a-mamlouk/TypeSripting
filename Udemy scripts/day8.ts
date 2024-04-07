@@ -23,3 +23,10 @@ const Area1 = AreaOfCircle(5);
 PrintAreaOfCircle(Area1);
 const Area2 = AreaOfCircle(7);
 PrintAreaOfCircle(Area2);
+
+// Area of Rectangle
+function AreaOfRectangle(length: number, width: number): number {
+  const Area = length * width;
+  return Area;
+}
+console.log(AreaOfRectangle(5, 7));
